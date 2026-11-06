@@ -23,12 +23,15 @@ export const profile = {
     linkedin: 'https://www.linkedin.com/in/manmohan-ganesan/',
     github: 'https://github.com/manmohanganesh',
   },
-  resumePdf: '/assets/Sushmita_Dasari_Resume.pdf',
+  resumePdf: `${import.meta.env.BASE_URL}assets/Manmohan_Ganesan_Resume.pdf`,
   portrait: {
-    // Replace the template portrait inputs with your own photos, then run `npm run images`.
-    src: '/assets/portrait-720.webp',
-    srcSet: '/assets/portrait-420.webp 420w, /assets/portrait-720.webp 720w, /assets/portrait-1100.webp 1100w',
-    alt: 'Replace with Manmohan Ganesan portrait',
+    src: `${import.meta.env.BASE_URL}assets/portrait-720.webp`,
+    srcSet: [
+      `${import.meta.env.BASE_URL}assets/portrait-420.webp 420w`,
+      `${import.meta.env.BASE_URL}assets/portrait-720.webp 720w`,
+      `${import.meta.env.BASE_URL}assets/portrait-1100.webp 1100w`,
+    ].join(', '),
+    alt: 'Manmohan Ganesan',
   },
   interests: ['Machine Learning', 'Retrieval-Augmented Generation', 'Agentic AI'],
 };
