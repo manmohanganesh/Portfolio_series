@@ -20,7 +20,7 @@ export const profile = {
   email: 'manmohanguitarist10@gmail.com',
   phone: '9632941796',
   links: {
-    linkedin: '',
+    linkedin: 'https://www.linkedin.com/in/manmohan-ganesan/',
     github: 'https://github.com/manmohanganesh',
   },
   resumePdf: '/assets/Manmohan_Ganesan_Resume.pdf',
@@ -38,14 +38,14 @@ export const education = [
     school: 'Christ University',
     place: 'Bengaluru, Karnataka',
     degree: "Master's in Computer Applications",
-    period: '',
+    period: '2018 – 2021',
     score: 'CGPA 8.73',
   },
   {
     school: "St. Joseph's University",
     place: 'Bengaluru, Karnataka',
     degree: 'B.Sc. in Physics, Mathematics and Computer Science',
-    period: '2018 – 2021',
+    period: '2015 - 2021',
     score: 'CGPA 7.5',
   },
 ];
@@ -55,7 +55,7 @@ export const experience = [
     company: 'SysCloud',
     role: 'Software Developer',
     place: 'Bengaluru, Karnataka',
-    period: '',
+    period: '2020 - 2021',
     points: [
       'Analyzed operational datasets using SQL and Excel to support reporting, workflow monitoring, debugging, and issue analysis.',
       'Developed SQL queries with joins, aggregations, filters, and subqueries to retrieve, validate, and analyze business-critical data.',
@@ -64,10 +64,10 @@ export const experience = [
     ],
   },
   {
-    company: 'Community Volunteering',
+    company: 'U&I Volunteering',
     role: 'Teacher',
-    place: '',
-    period: '',
+    place: 'Bengaluru',
+    period: '2025 - Present',
     points: [
       'Taught students from 1st to 10th standard across multiple subjects during weekend learning sessions.',
       'Mentored students individually and in groups, and worked with fellow volunteers to create an engaging learning environment.',
@@ -132,7 +132,7 @@ export const projects: Project[] = [
     motif: 'flow',
   },
   {
-    id: 'google-play-analytics',
+    id: 'Google-play-analytics',
     title: 'Google Play Store Analytics Dashboard',
     year: '2026',
     genre: 'Analytics • Business Intelligence • Power BI',
