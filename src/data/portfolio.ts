@@ -12,8 +12,8 @@ export const profile = {
   firstName: 'MANMOHAN',
   seriesTag: 'THE SERIES',
   originalLabel: 'A MANMOHAN ORIGINAL',
-  role: 'Data Scientist | Machine Learning | RAG | Python',
-  tagline: ['Data Scientist', 'Machine Learning', 'RAG', 'Python'],
+  role: 'Data Science | Machine Learning | AI Engineering',
+  tagline: ['Data Scientist', 'Machine Learning', 'RAG', 'Agentic AI', 'AI Agents'],
   intro:
     'Data Scientist with hands-on experience in machine learning, NLP, and Retrieval-Augmented Generation. Builds end-to-end AI projects involving data pipelines, vector databases, and scalable ML workflows using Python, LangChain, SQL, and modern AI tooling.',
   location: 'Bengaluru, Karnataka',
