@@ -298,10 +298,11 @@ export const introSlides: IntroSlide[] = [
   { kicker: 'Current mission', title: 'Applied Data & AI', lines: ['Machine Learning · NLP · RAG · Agentic AI'] },
 ];
 
-export type ProfileId = 'manmohan' | 'recruiter' | 'developer' | 'creative';
+// Keep `sushmita` as the template's internal ID; the visible profile name is Manmohan.
+export type ProfileId = 'sushmita' | 'recruiter' | 'developer' | 'creative';
 export type SectionId = 'about' | 'journey' | 'originals' | 'picks' | 'skills' | 'moments' | 'story';
 export const viewerProfiles: { id: ProfileId; name: string; blurb: string; color: string; order: SectionId[] }[] = [
-  { id: 'manmohan', name: 'Manmohan', blurb: 'The full series, in order', color: '#e5132b', order: ['about', 'journey', 'originals', 'picks', 'skills', 'moments', 'story'] },
+  { id: 'sushmita', name: 'Manmohan', blurb: 'The full series, in order', color: '#e5132b', order: ['about', 'journey', 'originals', 'picks', 'skills', 'moments', 'story'] },
   { id: 'recruiter', name: 'Recruiter', blurb: 'Experience, projects & skills first', color: '#4cc9ff', order: ['story', 'moments', 'skills', 'originals', 'about', 'journey', 'picks'] },
   { id: 'developer', name: 'Data & AI', blurb: 'Projects, methods & tools first', color: '#46e3a8', order: ['originals', 'skills', 'journey', 'moments', 'about', 'picks', 'story'] },
   { id: 'creative', name: 'Highlights', blurb: 'The story and project highlights first', color: '#ffb547', order: ['journey', 'picks', 'originals', 'moments', 'about', 'skills', 'story'] },
