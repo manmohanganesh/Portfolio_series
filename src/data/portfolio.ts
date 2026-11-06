@@ -23,7 +23,7 @@ export const profile = {
     linkedin: 'https://www.linkedin.com/in/manmohan-ganesan/',
     github: 'https://github.com/manmohanganesh',
   },
-  resumePdf: '/assets/Manmohan_Ganesan_Resume.pdf',
+  resumePdf: '/assets/Sushmita_Dasari_Resume.pdf',
   portrait: {
     // Replace the template portrait inputs with your own photos, then run `npm run images`.
     src: '/assets/portrait-720.webp',
