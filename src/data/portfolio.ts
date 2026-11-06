@@ -33,7 +33,7 @@ export const profile = {
     ].join(', '),
     alt: 'Manmohan Ganesan',
   },
-  interests: ['Machine Learning', 'Retrieval-Augmented Generation', 'Agentic AI'],
+  interests: ['Machine Learning', 'Retrieval-Augmented Generation', 'Agentic AI','Fine Tuning'],
 };
 
 export const education = [
