@@ -17,9 +17,9 @@ export const profile = {
   intro:
     'Data Scientist with hands-on experience in machine learning, NLP, and Retrieval-Augmented Generation. Builds end-to-end AI projects involving data pipelines, vector databases, and scalable ML workflows using Python, LangChain, SQL, and modern AI tooling.',
   location: 'Bengaluru, Karnataka',
-  email: 'manmohanguitarist10@gmail.com',
   phone: '9632941796',
   links: {
+    email: 'manmohanguitarist10@gmail.com',
     linkedin: 'https://www.linkedin.com/in/manmohan-ganesan/',
     github: 'https://github.com/manmohanganesh',
   },
